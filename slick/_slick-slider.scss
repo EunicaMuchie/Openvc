@@ -1,0 +1,40 @@
+.slider {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.slick-slide { margin: 0px 40px!important;
+  width:100%!important;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  width:100%!important;
+  opacity: 1;
+}
+
+.top{
+  overflow-x: hidden;
+
+}
+
+
+@import "slick-slider"
